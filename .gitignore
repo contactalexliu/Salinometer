@@ -46,14 +46,17 @@ Temporary Items
 .piolibdeps
 .clang_complete
 .gcc-flags.json
-.pio
+
+# Keep hex binary
+.pio/*
+!.pio/build
+.pio/build/*
+!.pio/build/ATmega328
+.pio/build/ATmega328/*
+!.pio/build/ATmega328/firmware.hex
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
