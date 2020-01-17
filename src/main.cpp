@@ -49,7 +49,7 @@ int ECPower = A3;
 float PPMconversion = 0.55;
 
 // *************** Cell Constant For EC Measurements *************** //
-float K = 2.88;
+float K = 214675;
 
 #if AUTOTEMPCOMP_ENABLED
   // *************** Temperature Compensation *************** //
